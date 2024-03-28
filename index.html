@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="/css/index.css" rel="stylesheet" type="text/css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+          rel="stylesheet">
+</head>
+<body>
+<header>
+    <a href="#" class="logo">EduMarket</a>
+    <div class="menuToggle"></div>
+    <nav>
+        <ul>
+            <li><a href="index.html">Головна</a></li>
+            <li><a href="html/course.html">Курси</a></li>
+            <li><a href="/html/free-lesson_page.html">Безкоштовні Уроки</a>
+                <ul>
+                    <li><a href="/html/free-lessons.html">Photoshop</a></li>
+                    <li><a>Відеомонтаж </a></li>
+                    <li><a>Figma</a></li>
+                </ul>
+            </li>
+            <li><a href="#">Контакти</a></li>
+        </ul>
+    </nav>
+</header>
+<section>
+    <div class="main-img">
+        <p class="main_slogan">EduMarket</p>
+        <p class="second_slogan">Навчання без меж з EduMarket<br>
+            - знання на кожен ден</p>
+    </div>
+    <div class="about-us">
+        <div class="name">Про Нас</div>
+        <br>
+
+        <p class="main-text">
+            EduMarket - це інноваційна платформа, яка забезпечує доступ до найбільш різноманітних та якісних навчальних
+            курсів в онлайн-форматі. Наша місія - робити навчання доступним та зручним для всіх, незалежно від місця
+            проживання чи графіку. Ми пропонуємо широкий вибір курсів з різних галузей: від програмування та маркетингу
+            до мистецтва та особистого розвитку.
+        </p>
+        <p class="main-text">
+            Наша команда - це злагоджений колектив професіоналів, які працюють над тим, щоб забезпечити вас якісними
+            матеріалами, оновлюваними курсами та високим рівнем підтримки користувачів. Ми завжди вдосконалюємося та
+            шукаємо нові можливості для покращення процесу навчання нашої аудиторії.
+        </p>
+        <p class="main-text">
+            З EduMarket ви отримаєте не просто курси, а ключі до розвитку своїх навичок, реалізації потенціалу та
+            досягнення власних цілей. Долучайтеся до нашої спільноти та відкрийте нові горизонти з нами!
+        </p>
+    </div>
+    <div class="advantages">
+        <div class="name">Наші переваги</div>
+        <div class="wrapper-card">
+            <div class="card-advantages">
+                <div class="card-name">Різноманітність курсів</div>
+                <div class="description main-text">Ми пропонуємо широкий вибір навчальних програм з різних галузей, що
+                    відповідають різним потребам та інтересам користувачів
+                </div>
+            </div>
+            <div class="card-advantages">
+                <div class="card-name">Підтримка</div>
+                <div class="description main-text">Наша команда готова відповісти на всі ваші запитання та надати
+                    допомогу на кожному етапі навчання.
+                </div>
+            </div>
+            <div class="card-advantages">
+                <div class="card-name">Ціна</div>
+                <div class="description main-text">Ми пропонуємо конкурентоспроможні ціни на всі наші курси,
+                    забезпечуючи доступність навчання для всіх бажаючих.
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="wrapper-wrapper-course">
+        <div class="wrapper_course">
+            <div class="course-cards">
+                <div class="card">
+                    <img src="/img/video.png" alt="">
+                    <div class="course_name">Відеомонтаж</div>
+                </div>
+                <div class="card">
+                    <img src="/img/Photoshop.png" alt="">
+                    <div class="course_name">Photoshop</div>
+                </div>
+                <div class="card">
+                    <img src="/img/smm.png" alt="">
+                    <div class="course_name">SMM</div>
+                </div>
+                <div class="card">
+                    <img src="/img/facebook.png" alt="">
+                    <div class="course_name">Facebook Ads</div>
+                </div>
+                <div class="card">
+                    <img src="/img/figma.png" alt="">
+                    <div class="course_name">Figma</div>
+                </div>
+                <div class="card">
+                    <img src="/img/uiux.png" alt="">
+                    <div class="course_name">UI/UX</div>
+                </div>
+
+            </div>
+            <div class="wrapper_btn">
+                <div class="course-btn">Замовити курс</div>
+            </div>
+        </div>
+    </div>
+</section>
+<div class="contact_us">
+    <h3 class="title">Зв'язатися з нами</h3>
+    <div class="title_line"></div>
+    <div class="form_wrapper">
+        <input class="form_input" value="Ім'я"></input>
+        <input class="form_input" value="Пошта"></input>
+        <textarea class="form_textarea">Коментар</textarea>
+        <button class="send"><p>Надіслати</p></button>
+    </div>
+</div>
+<script>
+    let menuToggle = document.querySelector('.menuToggle');
+    let header = document.querySelector('header');
+    menuToggle.onclick = function () {
+        header.classList.toggle('active');
+    }
+</script>
+<footer id="contacts">
+    <div class="footer_items">
+        <div class="footer_item">
+            <h6>Контакти</h6>
+            <p>+380 95 000 9000</p>
+            <p>+380 96 000 4142</p>
+        </div>
+        <div class="footer_item">
+            <h6>Email</h6>
+            <p>EduMarket@gmail.com</p>
+            <p>EduMarketMail@gmail.com</p>
+        </div>
+        <div class="footer_item">
+            <h6>Соціальні мережі</h6>
+            <p>Instagram</p>
+            <p>Twitter</p>
+            <p>Facebook</p>
+        </div>
+        <div class="footer_item">
+            <h6>Підтримка</h6>
+            <p>Часті питання</p>
+            <p>Підтримка</p>
+            <p>Політика конфіденційності</p>
+        </div>
+    </div>
+</footer>
+
+
+</body>
+</html>
